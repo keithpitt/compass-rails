@@ -4,13 +4,11 @@ source 'https://rubygems.org'
 gemspec
 
 group :assets do
-  gem 'compass'
   gem 'compass-rails', :path => '.'
 end
 
 group :test do
   gem 'mocha'
-  gem "appraisal", :git => 'git://github.com/scottdavis/appraisal.git'
   gem 'rainbow'
 end
 

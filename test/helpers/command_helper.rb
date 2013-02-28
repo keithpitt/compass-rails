@@ -1,5 +1,3 @@
-require 'appraisal'
-require 'appraisal/command'
 module Kernal
   module Captures
     def capture_output

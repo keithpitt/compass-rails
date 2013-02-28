@@ -5,12 +5,11 @@ Bundler.setup
 require 'rake/dsl_definition' rescue nil
 
 require "bundler/gem_tasks"
-require 'appraisal'
 require 'compass'
 
 # ----- Default: Testing ------
 
-task :default => [:test, :features]
+task :default => [:test, :units]
 
 require 'rake/testtask'
 require 'fileutils'
