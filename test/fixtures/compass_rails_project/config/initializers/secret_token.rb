@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-CompassRailsProject::Application.config.secret_key_base = 'cd3705b5299581ae4b7e79937ba7d75f201841580fa74860241bf59fe1a273fa64bc6039173b49558d887605c490299c83d9d7fc073aa90f07d9f43d75a3ea8f'
+CompassRailsProject::Application.config.secret_key_base = 'a8de9b18c0f9dfb380b4c2589097a14cfac1b50d64cde2d8232a86bdad116276c25d62e0b96f3456b67bdef3971565fa96489bd1191d5e6ca32979d68efa27b7'

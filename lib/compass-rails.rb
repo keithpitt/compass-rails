@@ -1,4 +1,5 @@
 require 'compass'
+=begin
 require "compass/rails/version"
 require "compass/rails/configuration"
 
@@ -232,4 +233,4 @@ require "compass-rails/patches"
 require "compass-rails/railties"
 require "compass-rails/installer"
 
-
+=end
