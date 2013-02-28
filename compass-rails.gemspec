@@ -15,9 +15,9 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Compass::Rails::VERSION
 
-  gem.add_dependency         'compass',         '>= 0.13.alpha.2'
+  gem.add_runtime_dependency 'compass',         '>= 0.13.alpha.2'
   gem.add_runtime_dependency 'sass',            '>= 3.1.10'
   gem.add_runtime_dependency 'railties',        '>= 4.0.0.beta', '< 5.0'
   gem.add_runtime_dependency 'tilt',            '~> 1.3'
-  gem.add_runtime_dependency 'sprockets-rails', '~> 2.0.0.rc0'
+  gem.add_runtime_dependency 'sprockets-rails', '~> 2.0.0.rc3'
 end
