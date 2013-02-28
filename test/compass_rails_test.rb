@@ -1,5 +1,10 @@
 require 'test_helper'
 class CompassRailsTest < Compass::Rails::TestCase
+  test "classes are loaded" do
+    assert_kind_of Module, Compass::Rails
+    assert_kind_of Class, Compass::Rails::Railtie
+  end
+
   def test_rails_app_created
     within_rails_app('compass_rails_project') do |project|
       assert project.boots?

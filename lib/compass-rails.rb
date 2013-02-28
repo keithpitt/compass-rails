@@ -1,5 +1,8 @@
-require 'compass'
+require 'compass-rails/rails'
+
 =begin
+# require 'compass'
+
 require "compass/rails/version"
 require "compass/rails/configuration"
 

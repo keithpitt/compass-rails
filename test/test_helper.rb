@@ -1,12 +1,14 @@
 # Configure Rails Envinronment
 ENV["RAILS_ENV"] = "test"
 
+p $LOAD_PATH
+
 require 'rubygems'
 require 'bundler/setup'
 
 require 'rails'
 require "rails/test_help"
-require 'compass/rails'
+require 'compass-rails/rails'
 require 'sfl'
 
 require 'minitest/pride'
