@@ -9,6 +9,8 @@ require "rails/test_help"
 require 'compass/rails'
 require 'sfl'
 
+require 'minitest/pride'
+
 Rails.backtrace_cleaner.remove_silencers!
 
 # If developing against local dependencies, this code will ensure they get picked up
