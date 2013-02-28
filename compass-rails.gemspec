@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/compass-rails/version', __FILE__)
+require File.expand_path('../lib/compass/rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Scott Davis", "Chris Eppstein"]
@@ -13,7 +13,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "compass-rails"
   gem.require_paths = ["lib"]
-  gem.version       = CompassRails::VERSION
+  gem.version       = Compass::Rails::VERSION
 
   gem.add_dependency         'compass',         '>= 0.13.alpha.2'
   gem.add_runtime_dependency 'sass',            '>= 3.1.10'

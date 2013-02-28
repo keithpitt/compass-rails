@@ -1,20 +1,9 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
 # Specify your gem's dependencies in compass-rails.gemspec
 gemspec
 
-group :assets do
-  gem 'compass-rails', :path => '.'
-end
+# Track Rails master
+gem "rails", :github => 'rails/rails', :branch => 'master'
 
-group :test do
-  gem 'mocha'
-  gem 'rainbow'
-end
-
-unless ENV["CI"]
-  gem 'rb-fsevent', :require => false
-  gem 'ruby_gntp', :require => false
-  gem 'guard'
-  gem 'guard-test'
-end
+gem "sfl", "~> 2.0"

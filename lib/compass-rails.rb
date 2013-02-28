@@ -1,6 +1,6 @@
 require 'compass'
-require "compass-rails/version"
-require "compass-rails/configuration"
+require "compass/rails/version"
+require "compass/rails/configuration"
 
 module CompassRails
 

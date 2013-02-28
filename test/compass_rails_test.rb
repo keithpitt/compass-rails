@@ -1,7 +1,5 @@
 require 'test_helper'
-class CompassRailsTest < Test::Unit::TestCase
-  include CompassRails::Test::RailsHelpers
-
+class CompassRailsTest < Compass::Rails::TestCase
   def test_rails_app_created
     within_rails_app('test_railtie') do |project|
       assert project.boots?

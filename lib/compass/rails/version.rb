@@ -1,5 +1,5 @@
-module CompassRails
-  unless defined?(::CompassRails::VERSION)
-    VERSION = "1.0.3"
+module Compass
+  module Rails
+    VERSION = "2.0.0"
   end
 end
